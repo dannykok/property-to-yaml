@@ -21,4 +21,7 @@ for line in env_lines:
 
 # Convert the dictionary to YAML and write it to the output file
 with open(output_filename, 'w') as f:
+    f.write('#\n')
+    f.write('# This is a generated file\n')
+    f.write('#\n\n')
     yaml.dump(env_dict, f, default_flow_style=False)
