@@ -1,0 +1,5 @@
+# sample properties
+property_hello="hello world!"
+property_foo="Foo bar"
+
+property_some_secret_key="jf90skB9qseU"
